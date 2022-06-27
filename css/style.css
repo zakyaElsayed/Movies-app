@@ -1,0 +1,64 @@
+
+.sideBar{
+    left:0px;
+    width: 20%;
+    color: #212529;
+    background-color: darkgray;
+    
+   
+
+z-index: 99999999;
+}
+body{
+    background-color: #000000f2;
+  
+}
+
+
+
+   .openTab{
+    background-color: rgba(248, 246, 246,1);
+
+   }
+  
+
+.navList{
+    list-style: none;
+   
+
+}
+.navlink{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    font-size: large;
+
+
+}
+.nav-item{
+    padding: 10px;
+}
+#submitBtn{
+width: 15%;
+;
+margin: 10px;
+margin-bottom: 50px;
+}
+.layer{
+    background-color: rgba(32, 24, 24, 0.5);
+    top: 100%;
+ 
+
+}
+.movieItem:hover .layer{
+  
+    top:0%;
+    bottom: 0%;
+    transition:1.5s;
+}
+.movieItem {
+    overflow: hidden;
+}
+.openIcon ,.shareIcon,.social{
+    cursor: pointer;
+}

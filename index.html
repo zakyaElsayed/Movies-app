@@ -1,0 +1,133 @@
+<html>
+
+
+<head>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+    <section class="sideBar d-flex    position-fixed  top-0 bottom-0  ">
+        <div class="navBar d-flex flex-column   text-white w-75">
+            <div class="nav-list">
+                <ul class="navList">
+                    <li class="nav-item">
+                        <a id="Now-Playing" class="navlink" href="">Now Playing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="popular" class="navlink" href="">popular</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="Top-Rated" class="navlink" href="">Top Rated</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="Trending" class="navlink" href="">Trending</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="UpComing" class="navlink" href="">Up Coming</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="ContactUs" class="navlink" href="#contact">ContactUs</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="social d-flex fs-5  text-white  w-100  ">
+                <i class="fa-brands  fa-facebook-f p-2  "></i>
+                <i class="fa-brands  fa-instagram p-2 "></i>
+
+                <i class="fas fa-globe p-2"></i>
+
+            </div>
+            <div class="copyRight">
+                <p class="text-dark">Copyright Â© 2019 All Rights Reserved.</p>
+            </div>
+        </div>
+        <div
+            class="openTab border-start   py-3 text-center   w-25 d-flex flex-column align-content-between justify-content-between">
+            <div class="logo" class="w-100  ">
+                <img src="./imgs/logo.png" alt="">
+            </div>
+            <div class="openIcon w-100  fs-2  ">
+           
+                <i class="fa fa-align-justify"></i>
+            </div>
+            <div class="shareIcon w-100 d-flex flex-column fs-5">
+                <i class="fas fa-globe"></i>
+
+                <i class="fas fa-share-alt"></i>
+            </div>
+
+        </div>
+    </section>
+
+
+    <div class=" movies container my-4  text-info ">
+        <input type="text" placeholder="get movie By Word....." id="searchByWord"
+            class=" text-white bg-dark border-0 border-bottom  m-1 col-md-5 my-5 text-center p-2"></input>
+        <input type="text" placeholder="search..... " id="search"
+            class="text-white bg-dark border-bottom border-0 m-1 col-md-5 my-5 text-center p-2"></input>
+        <div id="moviesSide" class="row  g-1 d-flex justify-content-center align-items-center">
+
+
+
+
+
+
+
+        </div>
+    </div>
+    <div id="contact" class="container d-flex justify-content-center align-items-center">
+        <div class="row g-1">
+            <h3 class="col-md-12">contact Us >>>> </h3>
+            <div class="col-md-5 m-2  p-2">
+                <input id="Name" type="text" class="  w-100 p-2 border-0 border-bottom text-muted  bg-dark "
+                    placeholder="Enter your Name ">
+                <div id="nameError" class="  text-danger text-center"></div>
+            </div>
+            <div class="col-md-5 m-2  p-2">
+                <input id="E-mail" type="text" class=" w-100 m-2  p-2 border-0 border-bottom text-muted  bg-dark "
+                    placeholder="Enter your E-mail ">
+                <div id="mailError" class="  text-danger text-center"></div>
+            </div>
+            <div class="col-md-5 m-2  p-2">
+                <input id="phone" type="text" class="w-100 m-2  p-2 border-0 border-bottom text-muted   bg-dark"
+                    placeholder="Enter your phone ">
+                <div id="phoneError" class="  text-danger text-center"></div>
+            </div>
+            <div class="col-md-5 m-2  p-2">
+                <input id="Age" type="text" class="w-100 m-2   p-2 border-0 border-bottom text-muted   bg-dark"
+                    placeholder="Enter your Age ">
+                <div id="ageError" class="  text-danger text-center"></div>
+            </div>
+            <div class="col-md-5 m-2  p-2">
+                <input id="password" type="text" class="w-100 m-2 p-2 border-0 border-bottom text-muted   bg-dark"
+                    placeholder="Enter your Password ">
+                <div id="passError" class="  text-danger text-center"></div>
+            </div>
+            <div class="col-md-5 m-2  p-2">
+                <input id="re-password" type="text" class="w-100 m-2 p-2 border-0 border-bottom text-muted  bg-dark "
+                    placeholder="Enter  RE-password ">
+                <div id="rePassError" class="  text-danger text-center"></div>
+            </div>
+
+
+
+            <button type="submit" id="submitBtn" class="  btn  btn-outline-danger  px-1  py-3  "> Submit</button>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
